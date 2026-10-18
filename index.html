@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Роман Ушаков: независимая финансовая экспертиза, управленческий учёт, контроль финансовых данных, постановка и приёмка 1С/ERP для строительных и производственных групп.">
+  <meta name="theme-color" content="#142629">
+  <title>Роман Ушаков — От цифр к сути бизнеса</title>
+  <style>
+  :root {--ink:#142629;--ink2:#244043;--muted:#6b7471;--paper:#f8f6f0;--cream:#efeee7;--lime:#cfeb72;--line:#d9dfd7;--white:#fff;--serif:Georgia,'Times New Roman',serif}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:var(--ink);background:var(--paper)}
+  a{color:inherit}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #76aa84;outline-offset:4px}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 34px}.pill{display:inline-block;padding:7px 13px;border:1px solid #9caca7;border-radius:28px;font-size:11px;letter-spacing:.09em;text-transform:uppercase;font-weight:700}
+  nav{height:80px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #dce4dc}nav .brand{font-weight:800;letter-spacing:-.03em;font-size:19px;text-decoration:none}nav .brand span{color:#58766f}nav .links{display:flex;gap:23px;align-items:center}nav .links>a{font-size:12px;font-weight:700;text-decoration:none}nav .links>a:hover{text-decoration:underline}.navcta{background:var(--ink);color:#fff;border-radius:24px;padding:10px 17px}
+  .hero{padding:82px 0 100px;display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}.eyebrow{color:#5a706b;font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.hero h1{font:normal clamp(42px,5.4vw,76px)/1.06 var(--serif);letter-spacing:-.058em;margin:21px 0 24px;max-width:760px}.hero h1 em{color:#56846d;font-style:normal}.intro{font-size:19px;line-height:1.6;max-width:630px;color:#455a56;margin:0 0 28px}.actions{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:700;font-size:14px;padding:14px 21px;border-radius:3px;transition:transform .2s}.btn:hover{transform:translateY(-2px)}.btn-dark{background:var(--ink);color:#fff}.btn-outline{border:1px solid var(--ink)}.fine{font-size:12px;color:#7d8680;max-width:555px;margin-top:25px}
+  .diagram{background:var(--ink);border-radius:6px;color:#fff;padding:29px;box-shadow:0 24px 52px rgba(21,39,35,.12);position:relative;overflow:hidden}.diagram:after{content:'↗';position:absolute;right:-23px;top:-65px;font-size:270px;font-family:var(--serif);opacity:.06;color:#fff}.diagram small{color:#bacac5;letter-spacing:.13em;font-weight:700}.diag-title{font:normal 28px/1.2 var(--serif);margin:22px 0 26px}.step{position:relative;display:flex;align-items:center;gap:18px;padding:16px 0;border-top:1px solid #3d5759}.num{font:normal 23px var(--serif);color:var(--lime);min-width:37px}.st-head{font-weight:750}.st-sub{display:block;color:#bacac5;font-size:12px}.verified{display:flex;gap:9px;align-items:center;background:#2a4546;padding:14px;margin-top:14px;font-size:12px;color:#d3e3d9}.verified .dot{display:inline-block;width:8px;height:8px;background:var(--lime);border-radius:50%}
+  .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:30px 0}.metric{padding:8px 36px;border-left:1px solid var(--line)}.metric:first-child{padding-left:0;border-left:0}.metric strong{display:block;font:normal 39px var(--serif);letter-spacing:-.04em}.metric span{font-size:13px;color:var(--muted)}
+  section{scroll-margin-top:65px}.section{padding:95px 0}.head{display:flex;gap:36px;justify-content:space-between;align-items:flex-end;margin-bottom:38px}.head h2{font:normal clamp(32px,4vw,54px)/1.12 var(--serif);letter-spacing:-.035em;margin:10px 0 0}.head p{max-width:360px;color:var(--muted);font-size:15px;margin:0}
+  .problems{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.problem{background:#fff;border:1px solid #e2e5df;padding:30px;min-height:226px}.problem .q{color:#678278;font-size:14px;font-weight:700}.problem h3{font:normal 25px/1.16 var(--serif);margin:18px 0}.problem p{font-size:14px;color:#66726b;margin:0}
+  .darkband{background:var(--ink);color:white;padding:95px 0}.darkband .head p{color:#bdcdc6}.services{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#53696a;border:1px solid #53696a}.service{background:var(--ink);padding:34px;min-height:268px}.service .service-n{font-size:13px;color:var(--lime);font-weight:700}.service h3{font:normal 29px/1.2 var(--serif);margin:23px 0}.service p{font-size:14px;color:#bdcdc6}.service .deliverable{border-top:1px solid #475c5c;margin-top:22px;padding-top:20px;font-size:13px;color:#e8efe8}
+  .cases{display:grid;grid-template-columns:1fr 1fr;gap:22px}.case{background:#fff;border:1px solid #e4e8e1;overflow:hidden;display:flex;flex-direction:column}.case .top{background:#e7eee5;padding:23px 28px;display:flex;justify-content:space-between;align-items:center;color:#356b54}.case .top.bit{background:#ecece8;color:#536567}.case small{font-size:11px;letter-spacing:.09em;text-transform:uppercase;font-weight:800}.case .body{padding:32px;flex:1}.case h3{font:normal 32px/1.12 var(--serif);letter-spacing:-.028em;margin:0 0 17px}.case p{font-size:14px;color:#56645e}.case ul{padding-left:18px;font-size:14px;color:#435650;line-height:1.7}.case li{margin-bottom:6px}.case .status{border-top:1px solid #e5e8df;padding-top:16px;margin-top:22px;font-size:12px;color:#6a756c}.case .status b{color:var(--ink)}
+  .method{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}.method h2{font:normal 49px/1.12 var(--serif);letter-spacing:-.04em;margin:0 0 20px}.method p{color:#64736b}.principles{display:grid;gap:0}.principle{padding:24px 0;border-top:1px solid #d6dcd3;display:flex;gap:20px}.principle b{font:normal 25px var(--serif);color:#537969}.principle p{margin:5px 0 0;font-size:14px;color:#607069}
+  .bio{background:#eaf0e8;padding:65px 0}.bio-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:80px;align-items:center}.monogram{height:380px;background:#d0e1d3;border-radius:4px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.monogram:before{content:'';height:280px;width:280px;border-radius:50%;border:1px solid #9ab4a3;position:absolute;top:45px;left:calc(50% - 140px)}.monogram:after{content:'РУ';font:normal 110px var(--serif);letter-spacing:-.06em;color:#537360}.bio h2{font:normal 46px var(--serif);margin:12px 0 18px}.bio p{color:#3e544a}.bio .external{font-size:14px;font-weight:700;text-underline-offset:5px;display:inline-block;margin-top:12px}
+  .contact{padding:92px 0 104px;background:var(--lime)}.contact .head{align-items:start}.contact h2{font:normal 53px/1.1 var(--serif);margin:0 0 15px;max-width:780px}.contact p{max-width:800px}.contact a.email{font-weight:800;font-size:clamp(23px,3.5vw,38px);text-underline-offset:6px}.contact .legal{max-width:750px;margin-top:32px;font-size:12px;color:#536749}
+  footer{background:var(--ink);color:#bbd0c6;padding:27px 0;font-size:12px}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}footer a{text-decoration:none;color:#ecf4ee}
+  @media(max-width:950px){.hero{grid-template-columns:1fr;gap:34px}.diagram{max-width:680px}.hero{padding:65px 0}.metric strong{font-size:32px}.service{padding:26px}.section{padding:70px 0}.method{gap:32px}.bio-grid{gap:35px}}
+  @media(max-width:700px){.wrap{padding:0 20px}nav{height:65px}nav .links{gap:13px}nav .links>a{font-size:12px}nav .links>a:not(.navcta){display:none}.hero h1{font-size:46px}.intro{font-size:16px}.metrics,.problems,.services,.cases,.method,.bio-grid{grid-template-columns:1fr}.metrics{gap:0}.metric{padding:14px 0;border-left:0;border-top:1px solid var(--line)}.metric:first-child{border-top:0}.head{display:block}.head p{margin-top:17px}.section{padding:60px 0}.darkband{padding:65px 0}.service{min-height:auto}.bio-grid{gap:25px}.monogram{height:210px}.monogram:before{height:180px;width:180px;top:15px;left:calc(50% - 90px)}.monogram:after{font-size:70px}.contact{padding:65px 0}.contact h2{font-size:42px}}
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+  .evidence{background:#f0f2ec;padding:92px 0}.evidence .head p{max-width:410px}.proof-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.proof{background:#fff;border:1px solid #dbe2d9;padding:30px;display:flex;flex-direction:column;min-height:240px}.proof small{font-size:11px;font-weight:800;letter-spacing:.1em;color:#568073}.proof h3{font:normal 29px/1.16 var(--serif);letter-spacing:-.02em;margin:13px 0}.proof p{font-size:14px;line-height:1.6;color:#55675d;margin:0 0 18px}.proof .proof-result{font-size:12px;color:#3c6354;font-weight:750;margin-top:auto;padding-top:15px;border-top:1px solid #e1e9e0}.evidence-foot{margin-top:23px;display:flex;gap:14px;align-items:flex-start;border-left:3px solid #86a996;padding:15px 20px;background:#e8eee6;color:#50665b;font-size:13px;line-height:1.6}.method-tag{display:block;color:#6c877b;font-weight:800;font-size:11px;letter-spacing:.08em;margin-top:15px}.audit-strip{padding:22px 0;border-top:1px solid #dbe2d9;border-bottom:1px solid #dbe2d9;background:#fff}.audit-strip .wrap{display:flex;gap:25px;justify-content:space-between;align-items:center}.audit-strip strong{font:normal 23px var(--serif)}.audit-strip p{margin:0;color:#63756c;max-width:620px;font-size:13px}
+  @media(max-width:700px){.proof-grid{grid-template-columns:1fr}.evidence{padding:58px 0}.proof{min-height:210px;padding:24px}.audit-strip .wrap{display:block}.audit-strip p{margin-top:12px}}
+  @media print{*{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}.cases{display:block!important}.case{margin-bottom:12px!important;break-inside:avoid!important}.case .top{padding:12px 18px!important}.case .body{padding:18px!important}.case h3{font-size:25px!important}.case p,.case ul{font-size:12px!important;line-height:1.4!important;margin:7px 0!important}.case li{margin-bottom:3px!important}.case .status{margin-top:8px!important;padding-top:8px!important;font-size:10px!important}.navcta{background:#142629!important}.actions{display:none}.hero{padding:28px 0 38px}.hero h1{font-size:58px}.section,.darkband,.evidence{padding:36px 0}.proof,.case,.service,.problem{break-inside:avoid}.contact{padding:45px 0}.bio{padding:40px 0}.monogram{height:200px}.monogram:after{font-size:70px}nav{height:50px}.fine,.legal{font-size:10px}}
+  
+/* Подтверждённое образование */
+.education{background:#f8f6f0;padding:88px 0 92px;border-top:1px solid var(--line)}
+.education .head{align-items:end}.education .head p{max-width:400px}
+.edu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.edu-card{background:white;border:1px solid #dfe5dc;padding:28px;display:flex;flex-direction:column;min-height:205px}
+.edu-card .edu-meta{display:flex;gap:13px;align-items:center;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:750;color:#53746b}
+.edu-card .edu-yr{display:inline-flex;padding:5px 9px;background:#edf3ec;color:#285c49;border-radius:2px}
+.edu-card h3{font:normal 28px/1.14 var(--serif);margin:19px 0 10px;letter-spacing:-.02em}
+.edu-card p{font-size:14px;color:#506159;line-height:1.6;margin:0}
+.edu-note{margin-top:24px;padding:18px 21px;border-left:3px solid #82aa91;background:#eef1e9;font-size:13px;line-height:1.65;color:#475a4f}
+.edu-note strong{color:#253f35}
+@media(max-width:700px){.education{padding:55px 0 65px}.edu-grid{grid-template-columns:1fr}.edu-card{padding:24px;min-height:unset}.edu-card h3{font-size:26px}.edu-note{margin-top:17px}}
+
+/* Самодостаточная расшифровка кейса: без ссылок на закрытый Google Диск */
+.case-detail{margin-top:22px;border-top:1px solid #dce5db;padding-top:13px}
+.case-detail summary{cursor:pointer;color:#2b6351;font-size:13px;font-weight:750;line-height:1.5;padding:10px 25px 10px 0;list-style:none;position:relative}
+.case-detail summary::-webkit-details-marker{display:none}
+.case-detail summary::after{content:'+';position:absolute;right:2px;top:6px;font-size:22px;font-weight:400;color:#42775b}
+.case-detail[open] summary::after{content:'−'}
+.case-detail .case-detail-body{margin:12px 0 1px;background:#f3f6f0;padding:18px 20px}
+.case-detail .case-detail-body p{font-size:13px;margin:0 0 13px}
+.case-detail .case-detail-body ol{margin:0 0 14px;padding-left:19px;color:#435650;font-size:13px}
+.case-detail .case-detail-body li{margin:0 0 7px}
+.case-detail .case-detail-body .case-detail-note,.case .case-detail-note{color:#607568;font-size:12px;margin:0}
+
+/* Развитие исходного дизайна — 15.10.2026 */
+.menu-toggle{display:none}.skip-link{position:absolute;left:20px;top:-100px;z-index:20;background:var(--ink);color:white;padding:12px}.skip-link:focus{top:10px}
+.hero h1{font-size:clamp(48px,5.8vw,80px);line-height:1.05;letter-spacing:-.045em}.hero{gap:48px}.hero>div{min-width:0}.hero .fine{color:#59685f}.contact .email{display:inline-block;margin-top:20px;overflow-wrap:anywhere}.contact-cta{margin:12px 0 4px}.eyebrow{line-height:1.6}.case .top{gap:12px}.case .top small{line-height:1.6}.case-detail-body{overflow-wrap:anywhere}.head h2{max-width:760px}.case-detail summary{min-height:44px}.btn,.navcta{min-height:44px}.edu-card .edu-meta{flex-wrap:wrap}.bio .external{overflow-wrap:anywhere}.proof small{line-height:1.6}.case .status{color:#516151}.fine{line-height:1.7}
+@media(min-width:701px) and (max-width:1100px){nav .brand span{display:none}nav .links{gap:14px}nav .links>a{font-size:11px}}
+@media(max-width:700px){nav{position:relative;flex-wrap:wrap;height:auto;min-height:74px;padding:15px 0;gap:12px}nav .brand{font-size:18px}nav .brand span{display:block;font-size:10px;letter-spacing:.03em;margin-top:3px}.menu-toggle{display:flex;align-items:center;gap:10px;background:transparent;border:1px solid #9caca7;padding:11px 14px;border-radius:3px;color:var(--ink);font:600 13px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif;min-height:44px}nav .links{display:none;width:100%;padding:10px 0 5px;flex-direction:column;align-items:stretch;gap:0}nav .links.is-open{display:flex}nav .links>a:not(.navcta){display:block}nav .links>a{font-size:14px;padding:13px 8px}nav .links .navcta{margin-top:8px;text-align:center;border-radius:3px}.hero{padding:46px 0 48px;gap:32px}.hero h1{font-size:clamp(43px,11vw,66px)}.hero .eyebrow{font-size:10px;letter-spacing:.11em}.diagram{padding:24px}.diagram small{font-size:10px}.diag-title{font-size:27px}.contact h2{font-size:36px}.method h2{font-size:38px}.bio h2{font-size:38px}.problem{min-height:0}.case .body{padding:24px}.case h3{font-size:29px}.proof h3{font-size:27px}.actions .btn{flex:1 1 180px}.contact .email{font-size:clamp(19px,5.4vw,30px)}.head{margin-bottom:28px}}
+
+.service{display:flex;flex-direction:column}.service .deliverable{margin-top:auto}.service-start{display:flex;gap:28px;align-items:center;justify-content:space-between;margin-top:30px;padding-top:26px;border-top:1px solid #53696a}.service-start p{margin:0;color:#d5e0db;max-width:670px;font-size:14px}.btn-light{background:var(--lime);color:var(--ink);flex-shrink:0}.case-result{background:#edf3e9;border-left:3px solid #56846d;padding:17px 19px;margin:22px 0}.case-result>span{font-size:10px;letter-spacing:.12em;font-weight:800;color:#41634e}.case-result p{margin:8px 0 0;color:#294735}.contact-prompts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:26px 0}.contact-prompts span{font-size:14px;border-top:1px solid #9bb855;padding-top:12px}.service h3{max-width:450px}.service p{margin-bottom:24px}
+@media(max-width:700px){.service-start{align-items:stretch;flex-direction:column;gap:18px}.contact-prompts{grid-template-columns:1fr;gap:10px}.case-result{padding:15px}.service h3{font-size:28px}}
+
+/* Телефон — основной сценарий: узкий экран, касание, управление одной рукой */
+.mobile-dock{display:none}button,a,summary{-webkit-tap-highlight-color:rgba(86,132,109,.18)}
+@media(max-width:700px){
+section{scroll-margin-top:16px}html{scroll-padding-top:16px}body{padding-bottom:calc(76px + env(safe-area-inset-bottom));text-size-adjust:100%;-webkit-text-size-adjust:100%}.wrap{padding-left:20px;padding-right:20px;max-width:100%}body>.wrap:first-of-type{position:relative;background:var(--paper);border-bottom:1px solid var(--line)}nav{border:0;min-height:68px;padding:10px 0}.menu-toggle{min-width:80px;min-height:46px}nav .links{max-height:calc(100svh - 160px);overflow-y:auto;overscroll-behavior:contain}nav .links>a{min-height:48px;padding:14px 10px}
+.hero{padding-top:32px;padding-bottom:30px;display:block}.hero h1{font-size:clamp(42px,11.8vw,68px);line-height:1.04;margin:16px 0 20px;letter-spacing:-.045em}.hero .intro{font-size:16px;line-height:1.55;margin-bottom:22px}.hero .fine{font-size:12px;line-height:1.55;margin:18px 0 0}.hero .diagram{display:none}.hero .eyebrow{font-size:10px;letter-spacing:.07em}.actions{gap:10px}.actions .btn{flex-basis:100%;min-height:50px;font-size:15px;padding:13px 16px}.actions .btn-outline{min-height:46px}
+.metrics{grid-template-columns:repeat(3,minmax(0,1fr));padding-top:18px;padding-bottom:18px;gap:12px}.metric,.metric:first-child{padding:0;border:0;min-width:0}.metric strong{font-size:clamp(21px,6vw,28px);white-space:nowrap}.metric span{font-size:11px;line-height:1.4;display:block;margin-top:7px}
+.section,.education,.evidence{padding-top:46px;padding-bottom:46px}.darkband{padding:46px 0}.head h2{font-size:34px;line-height:1.13}.head p{font-size:14px;line-height:1.6}.problems{gap:12px}.problem{padding:22px}.problem h3{font-size:26px;margin:12px 0}.service{padding:25px 22px}.service h3{font-size:28px;margin:16px 0}.service .deliverable{font-size:14px;line-height:1.6;padding-top:17px}.service p{font-size:15px;line-height:1.65;margin-top:0;margin-bottom:20px}.services{gap:1px}.service-start .btn{width:100%;min-height:50px}
+.cases{gap:18px}.case .top{padding:17px 22px}.case .body{padding:23px 22px}.case h3{font-size:29px}.case p{font-size:15px;line-height:1.65}.case .status{font-size:13px;line-height:1.6}.case-detail summary{min-height:52px;padding-top:14px;padding-bottom:14px;font-size:14px}.case-detail summary::after{top:11px}.case-detail .case-detail-body{padding:17px 14px}.case-detail .case-detail-body p,.case-detail .case-detail-body ol{font-size:14px;line-height:1.6}
+.proof-grid{gap:12px}.proof{padding:22px;min-height:0}.proof h3{font-size:26px}.method{gap:14px}.method h2{font-size:34px}.principle{padding:20px 0}.bio{padding:40px 0}.bio-grid{gap:16px}.monogram{height:136px}.monogram:before{height:118px;width:118px;top:9px;left:calc(50% - 59px)}.monogram:after{font-size:59px}.bio h2{font-size:36px}.bio .external{min-height:48px;padding:10px 0}.edu-card{padding:22px}.edu-card h3{font-size:25px;overflow-wrap:anywhere}.edu-card p{font-size:14px}.contact{padding:42px 0}.contact h2{font-size:34px}.contact p{font-size:15px;line-height:1.6}.contact .contact-cta{min-height:52px;width:100%;font-size:15px}.contact a.email{font-size:clamp(18px,5.2vw,30px);padding:10px 0;min-height:48px}.contact .legal{font-size:12px}.contact-prompts{gap:12px}.contact-prompts span{font-size:14px}
+.mobile-dock{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:6px;position:fixed;bottom:0;left:0;right:0;z-index:40;background:var(--paper);border-top:1px solid var(--line);padding:9px max(12px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));box-shadow:0 -5px 24px rgba(20,38,41,.08)}.mobile-dock a{display:flex;justify-content:center;align-items:center;min-height:46px;font-size:13px;font-weight:700;text-decoration:none;border-radius:4px}.mobile-dock a:last-child{background:var(--ink);color:white}.mobile-dock a:active{background:#e4e9dd}.mobile-dock a:last-child:active{background:#244043}footer .wrap{gap:8px}footer a{display:inline-flex;align-items:center;min-height:44px}
+}
+@media(max-width:359px){.wrap{padding-left:16px;padding-right:16px}.hero h1{font-size:40px}.metric span{font-size:10px}.metric strong{font-size:20px}.head h2,.method h2,.contact h2{font-size:31px}.case .body,.service{padding-left:18px;padding-right:18px}}
+@media print{.mobile-dock{display:none!important}body{padding-bottom:0!important}}
+
+.ai-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.ai-card{padding:30px;background:white;border:1px solid var(--line);min-width:0}.ai-label{font-size:10px;font-weight:800;letter-spacing:.1em;color:#53746b}.ai-card h3{font:normal 30px/1.15 var(--serif);letter-spacing:-.025em;margin:17px 0}.ai-card p{font-size:15px;color:#506159;line-height:1.65}.ai-output{font-size:14px;line-height:1.65;border-top:1px solid var(--line);padding-top:18px;color:#304d3e}.ai-pilot{background:#edf2e7}.ai-boundary{border-left:3px solid #56846d;padding:18px 22px;background:#eaf0e8;margin-top:24px}.ai-boundary p{font-size:14px;line-height:1.65;color:#506159;margin:8px 0 0}.interview-section{background:#e7eee2;padding:58px 0}.interview-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.interview-grid h2{font:normal 42px/1.13 var(--serif);letter-spacing:-.03em;margin:15px 0 0}.interview-grid p{color:#435b4b;margin:0 0 22px;line-height:1.65}
+@media(max-width:1100px) and (min-width:701px){nav .links{gap:10px}nav .links>a{font-size:10px}}
+@media(max-width:700px){.ai-grid,.interview-grid{grid-template-columns:1fr;gap:14px}.ai-card{padding:23px 22px}.ai-card h3{font-size:28px}.ai-boundary{padding:17px 19px}.interview-section{padding:42px 0}.interview-grid{gap:22px}.interview-grid h2{font-size:33px}.interview-grid .btn{width:100%;min-height:50px;font-size:13px}}
+
+.portrait{margin:0;max-width:420px;width:100%;justify-self:center}.portrait img{display:block;width:100%;height:auto;border-radius:4px;aspect-ratio:2/3}.portrait figcaption{font-size:11px;line-height:1.6;color:#52685b;margin-top:12px}.portrait figcaption a{text-underline-offset:3px}
+@media(max-width:700px){.portrait{max-width:320px;margin-bottom:8px}.portrait img{height:340px;object-fit:cover;object-position:center 34%;aspect-ratio:auto}.portrait figcaption{margin-top:8px}.portrait figcaption a{display:inline-block;min-height:32px;padding:5px 0}}
+
+.route-links{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding-top:26px;padding-bottom:0}.route-links>span{font-size:12px;color:#52685b;margin-right:6px}.route-links>a{padding:11px 15px;border:1px solid #aab9a5;text-decoration:none;font-size:12px;border-radius:3px;min-height:44px;display:inline-flex;align-items:center}.route-links>a:hover{background:#eaf0e8}.portfolio-disclosure{border-top:1px solid #b6c5b5;border-bottom:1px solid #b6c5b5}.portfolio-disclosure>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;cursor:pointer;padding:22px 0;font-size:16px;font-weight:700;min-height:60px}.portfolio-disclosure>summary::-webkit-details-marker{display:none}.portfolio-disclosure>summary span{font-size:25px;font-weight:400;transition:transform .15s}.portfolio-disclosure[open]>summary span{transform:rotate(45deg)}.portfolio-disclosure>.proof-grid,.portfolio-disclosure>.edu-grid{padding-bottom:24px}.education .edu-note{margin-bottom:24px}.faq details{border-top:1px solid var(--line);padding:0}.faq details:last-child{border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;font-size:18px;font-weight:600;padding:22px 30px 22px 0;min-height:60px}.faq details p{max-width:760px;margin:0 0 24px;color:#506159;font-size:15px;line-height:1.7}.service{scroll-margin-top:24px}.service:target{box-shadow:inset 4px 0 0 var(--lime)}.btn{border-radius:4px}.problem,.case,.proof,.ai-card,.edu-card{border-radius:4px}.hero .intro{max-width:610px}.hero h1{margin-bottom:24px}
+@media(max-width:700px){.route-links{display:grid;grid-template-columns:1fr;padding-top:22px;gap:8px}.route-links>span{margin:0 0 3px}.route-links>a{min-height:46px;justify-content:space-between;font-size:13px}.portfolio-disclosure>summary{font-size:15px;line-height:1.5;padding:18px 0}.faq summary{font-size:16px;line-height:1.5;padding-top:19px;padding-bottom:19px}.faq details p{font-size:14px}.education .head h2{font-size:31px}.hero .intro{margin-bottom:22px}}
+@media(prefers-reduced-motion:reduce){.portfolio-disclosure>summary span{transition:none}}
+
+/* Авторская композиция: личный эксперт, ясный маршрут, спокойные акценты. */
+:root{--paper:#faf8f3;--cream:#eeeee7;--ink:#192f2b;--ink2:#29463d;--lime:#d6e78b;--line:#d8ded4}
+nav .brand{font-family:var(--serif);font-size:24px;font-weight:normal;letter-spacing:-.04em}nav .brand span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:10px;font-weight:600;letter-spacing:.035em}.hero{grid-template-columns:1.3fr .7fr;gap:70px;padding-top:58px;padding-bottom:62px}.hero .portrait{max-width:340px}.hero .portrait img{height:420px;object-fit:cover;object-position:center 30%;aspect-ratio:auto}.hero .portrait figcaption{font-size:10px}.hero h1{font-size:clamp(49px,6.3vw,84px);line-height:1.02}.hero .intro{font-size:20px;line-height:1.55;max-width:620px}.hero .fine{font-size:12px}.metrics{padding:23px 0}.metric strong{font-size:30px}.metric span{font-size:12px}.editorial-note{padding-top:62px;padding-bottom:60px;display:grid;grid-template-columns:1fr 1fr;column-gap:60px;align-items:end}.editorial-note>.eyebrow{grid-column:1/-1}.editorial-note>p{font:normal 36px/1.2 var(--serif);letter-spacing:-.025em;margin:16px 0 0}.editorial-note em{font-style:normal;color:#597961}.editorial-note>div{font-size:15px;color:#53695a;line-height:1.7}.section{padding-top:76px;padding-bottom:76px}.head{align-items:start}.head p{line-height:1.7}.head h2{font-size:clamp(34px,4vw,49px)}.darkband{background:#192f2b;padding:76px 0}.service{background:#192f2b}.service h3{font-size:30px}.services{background:#4a6558;border-color:#4a6558}.service .service-n{letter-spacing:.08em;font-size:11px}.method{border-bottom:1px solid var(--line);gap:70px}.method h2{font-size:44px}.principle{padding:21px 0}.cases{gap:24px}.case{box-shadow:none;border-color:#d8ded4}.case .top{background:#e8eddf}.case .top.bit{background:#ecece4}.case .body{padding:28px}.case h3{font-size:30px}.case-result{background:#f0f4e9}.ai-practice{border-top:1px solid var(--line)}.ai-grid{gap:0;border-top:1px solid var(--line)}.ai-card{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:28px}.ai-card:nth-child(odd){border-right:1px solid var(--line);padding-left:0}.ai-card:nth-child(even){padding-right:0}.ai-card h3{font-size:28px}.ai-pilot{background:transparent}.bio{padding:62px 0;background:#e8eee3}.bio-grid{grid-template-columns:.85fr 1.15fr;gap:65px}.bio .diagram{padding:27px;box-shadow:none}.bio h2{font-size:46px}.bio p{font-size:16px;line-height:1.7}.interview-section{background:#f0f0e8;border-bottom:1px solid var(--line)}.education,.evidence{padding:48px 0;background:var(--paper)}.education .head,.evidence .head{margin-bottom:22px}.education .head h2,.evidence .head h2{font-size:33px}.education .edu-note{display:none}.faq{padding-top:62px;padding-bottom:62px}.contact{background:#e2ebcf;padding:72px 0}.contact h2{font-size:clamp(36px,4.8vw,58px)}.contact .contact-cta{padding:16px 26px}.contact a.email{font-size:clamp(20px,2.8vw,32px);font-weight:500}.contact-prompts span{border-color:#a5b48d}footer{background:#192f2b}
+@media(min-width:701px) and (max-width:950px){.hero{grid-template-columns:1fr .65fr;gap:30px}.hero h1{font-size:58px}.hero .portrait img{height:360px}.bio-grid{gap:30px}}
+@media(max-width:700px){nav .brand{font-size:23px}nav .brand span{font-size:9px}.hero{display:flex;flex-direction:column;gap:24px;padding-top:30px;padding-bottom:30px}.hero>div{width:100%}.hero h1{font-size:clamp(42px,12vw,67px);margin-top:17px}.hero .intro{font-size:16px;line-height:1.6}.hero .portrait{max-width:none;display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:center;margin:0}.hero .portrait img{height:132px;width:100px;object-position:center 25%;border-radius:3px}.hero .portrait figcaption{font-size:11px;margin:0;max-width:160px}.metrics{padding-top:20px;padding-bottom:20px}.metric strong{font-size:clamp(16px,4.7vw,23px);white-space:normal}.metric span{font-size:10px}.editorial-note{grid-template-columns:1fr;padding-top:34px;padding-bottom:38px;gap:16px}.editorial-note>.eyebrow{grid-column:auto}.editorial-note>p{font-size:30px;margin:0}.editorial-note>div{font-size:14px}.section,.darkband{padding-top:44px;padding-bottom:44px}.head h2{font-size:33px}.method{gap:15px}.method h2{font-size:33px}.case .body{padding:23px 21px}.case h3{font-size:28px}.ai-grid{grid-template-columns:1fr}.ai-card,.ai-card:nth-child(odd),.ai-card:nth-child(even){padding:23px 0;border-right:0}.ai-card h3{font-size:26px}.bio{padding:40px 0}.bio-grid{display:flex;flex-direction:column-reverse;gap:28px;align-items:stretch}.bio .diagram{display:block;max-width:none}.bio h2{font-size:36px}.bio p{font-size:15px}.education,.evidence{padding:34px 0}.education .head h2,.evidence .head h2{font-size:29px}.education .head p,.evidence .head p{font-size:13px}.interview-section{padding:38px 0}.interview-grid h2{font-size:31px}.faq{padding-top:40px;padding-bottom:40px}.contact{padding:42px 0}.contact h2{font-size:33px}.contact a.email{font-size:clamp(18px,5.2vw,28px)}
+}
+
+@media(max-width:700px){.wrap.metrics{padding:20px;gap:12px}}
+@media(max-width:359px){.wrap.metrics{padding-left:16px;padding-right:16px}}
+.ai-practice .ai-pilot{grid-column:1/-1}
+
+/* UX audit, 16.10.2026. Marketing content preserved. */
+:root{--muted:#5e6b63}
+.proof small{color:#3d6859}.case-detail .case-detail-body .case-detail-note{color:#506257}
+.wrap{padding-inline:clamp(20px,3vw,34px)}
+.hero,.head,.method,.bio-grid,.interview-grid{min-width:0}
+.head>div,.head>p,.method>div,.interview-grid>div{min-width:0}
+.head p{flex-shrink:0}
+.ai-card{display:flex;flex-direction:column}
+.ai-card h3{line-height:1.25;overflow-wrap:break-word}
+.ai-card .ai-output{border-top:0;border-left:3px solid #60816b;background:#eef2e8;padding:16px 18px;margin:4px 0 20px;font-size:15px;line-height:1.7}
+.ai-description{margin-top:auto;border-top:1px solid var(--line)}
+.ai-description summary{cursor:pointer;list-style:none;min-height:48px;padding:14px 32px 14px 0;position:relative;font-size:14px;font-weight:700;color:#294f3d}
+.ai-description summary::-webkit-details-marker{display:none}
+.ai-description summary::after{content:'+';position:absolute;right:4px;top:10px;font-size:24px;font-weight:400}
+.ai-description[open] summary::after{content:'−'}
+.ai-description-body{padding-bottom:4px;max-width:68ch}
+.ai-practice .ai-pilot{border-right:0;padding-right:0}
+.ai-practice .ai-pilot>p{max-width:85ch}
+.service p,.case p,.case li,.principle p,.proof p,.edu-card p,.faq details p{font-size:15px;line-height:1.7}
+.ai-label{font-size:11px;line-height:1.7}
+.head p{color:#59665e}
+nav .links>a{font-size:13px;min-height:44px;display:inline-flex;align-items:center;padding-block:10px}
+nav .links{gap:18px}
+.contact-tools{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:12px}
+.contact-tools .btn{background:transparent;color:var(--ink);font-family:inherit;font-size:14px;font-weight:600;line-height:1.5;cursor:pointer;min-height:48px}
+.copy-status{font-size:14px;line-height:1.5;min-height:1.5em;color:#294f3d}
+.email-fallback{font:inherit;color:var(--ink);background:#fff;border:1px solid #74836e;border-radius:4px;padding:12px;max-width:100%;width:330px;min-height:48px}
+[hidden]{display:none!important}
+a,button,summary{scroll-margin-block:24px calc(var(--dock-height,0px) + 24px)}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid #fff;outline-offset:1px;box-shadow:0 0 0 6px #24533e}
+.skip-link:focus{z-index:60}
+html{scroll-padding-bottom:calc(var(--dock-height,0px) + 24px)}
+@media(max-width:1100px){nav .brand span{display:none}}
+@media(max-width:1000px){
+ nav{height:auto;min-height:74px;flex-wrap:wrap;position:relative;gap:12px;padding:14px 0}
+ nav .brand{font-size:24px}
+ nav .links{display:flex;width:100%;flex-direction:column;align-items:stretch;gap:0;padding:6px 0}
+ nav .links>a,nav .links>a:not(.navcta){display:flex;font-size:15px;min-height:48px;padding:12px 10px}
+ nav .links .navcta{border-radius:4px;justify-content:center;margin-top:8px}
+ nav .menu-toggle{display:none}
+ nav[data-enhanced] .menu-toggle{display:flex;align-items:center;gap:10px;border:1px solid #899b90;border-radius:4px;background:transparent;color:var(--ink);padding:11px 14px;font:600 14px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;min-height:46px}
+ nav[data-enhanced] .links{display:none;max-height:calc(100svh - 150px);overflow-y:auto}
+ nav[data-enhanced] .links.is-open{display:flex}
+ .head p{flex-shrink:1}
+ .head{gap:28px}
+}
+@media(max-width:800px) and (min-width:701px){
+ .hero{grid-template-columns:1.3fr .7fr;gap:24px}
+ .hero h1{font-size:clamp(45px,7vw,58px)}
+ .hero .intro{font-size:18px}
+ .hero .portrait img{height:320px}
+ .method,.bio-grid,.interview-grid{gap:28px}
+ .head{display:block}.head p{max-width:65ch;margin-top:18px}
+}
+@media(max-width:700px){
+ .wrap{padding-inline:20px}
+ nav .brand{font-size:23px}nav .brand span{display:block;font-size:10px}
+ body{padding-bottom:calc(var(--dock-height,84px) + 16px)}
+ .hero .portrait figcaption{font-size:12px;max-width:190px}
+ .metric span{font-size:12px;line-height:1.5}
+ .ai-card .ai-output{padding:15px;margin-bottom:16px}
+ .ai-label{letter-spacing:.07em}
+ .contact-tools{align-items:stretch;flex-direction:column}
+ .contact-tools .btn,.email-fallback{width:100%}
+ .mobile-dock a{min-height:48px;font-size:14px;line-height:1.4;text-align:center;padding:6px}
+}
+@media(max-width:359px){.wrap{padding-inline:16px}.wrap.metrics{padding-inline:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
+@media print{nav,.mobile-dock,.contact-tools,.skip-link{display:none!important}body{padding-bottom:0!important}.ai-card,.ai-description{break-inside:avoid}.ai-description-body{display:block!important}.wrap{padding-inline:20px}.hero .portrait img{height:220px}}
+
+
+/* Approved content C1–C4, 16.10.2026 */
+
+
+.case-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:8px 0 26px;padding:18px 0;border-top:1px solid #d8ded4;border-bottom:1px solid #d8ded4}.case-facts>div{display:flex;flex-direction:column;gap:4px}.case-facts strong{font:normal 25px/1.15 Georgia,'Times New Roman',serif;color:#29463d}.case-facts span{font-size:12px;line-height:1.5;color:#5e6b63}.case-detail-body h4{font:700 15px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#29463d;margin:24px 0 6px}.case-detail-body h4:first-of-type{margin-top:14px}.case-detail-body ul{padding-left:20px}.case-detail-body li{padding-left:2px;margin:0 0 8px}@media(max-width:700px){.case-facts{grid-template-columns:1fr;gap:7px;margin:4px 0 20px}.case-facts>div{display:grid;grid-template-columns:minmax(88px,.4fr) 1fr;align-items:baseline;gap:12px}.case-facts strong{font-size:22px}.case-facts span{font-size:12px;overflow-wrap:anywhere}.case-detail-body h4{margin-top:21px}}
+</style>
+<meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:title" content="Роман Ушаков — От цифр к сути бизнеса"><meta property="og:description" content="Независимая финансовая экспертиза на стороне собственника. Деньги, дебиторская задолженность, экономика проектов и контроль 1С/ERP."><link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip-link" href="#main-content">К содержанию</a>
+<div class="wrap">
+  <nav aria-label="Главное меню">
+    <a class="brand" href="#top">Роман Ушаков<span> / на стороне собственника</span></a>
+    <button class="menu-toggle" type="button" aria-controls="main-links" aria-expanded="false">Меню <span aria-hidden="true">☰</span></button><div class="links" id="main-links"><a href="#services">Задачи</a><a href="#cases">Практика</a><a href="#ai-practice">ИИ в работе</a><a href="#about">Обо мне</a><a href="#questions">Вопросы</a><a class="navcta" href="#contact">Обсудить задачу ↗</a></div>
+  </nav>
+</div>
+<header id="top" class="wrap hero">
+  <div>
+    <div class="eyebrow">Роман Ушаков / независимый финансовый эксперт</div>
+    <h1>От цифр —<br><em>к сути бизнеса.</em></h1>
+    <p class="intro">Помогаю собственникам строительных и производственных компаний управлять деньгами группы, прибылью проектов и капиталом владельца. Соединяю финансовую экспертизу, 1С/ERP и ИИ — от постановки задачи до проверки результата.</p>
+    <div class="actions"><a class="btn btn-dark" href="#contact">Обсудить вашу задачу ↗</a><a class="btn btn-outline" href="#services">Что могу сделать →</a></div>
+    <p class="fine">Строительство · производство · проектный бизнес<br>Финансовая методология · 1С/ERP · применение ИИ</p>
+  </div>
+<figure class="portrait"><img src="roman-ushakov.jpg" alt="Роман Ушаков" width="500" height="750" fetchpriority="high" decoding="async"><figcaption>Фото из <a href="https://gpgr.kostroma.ru/company/governance/ushakov-roman-aleksandrovich/" target="_blank" rel="noopener noreferrer">публичного профессионального профиля ↗</a></figcaption></figure>
+</header>
+<div class="wrap metrics" aria-label="Профессиональная специализация">
+  <div class="metric"><strong>20 лет</strong><span>в финансах и управлении</span></div>
+  <div class="metric"><strong>Финансы + бизнес</strong><span>опыт финансового руководства и управления</span></div>
+  <div class="metric"><strong>1С / ERP</strong><span>требования, выбор решения и проверка результата</span></div>
+</div>
+<main id="main-content">
+<section class="wrap editorial-note" id="problems"><span class="eyebrow">ЗНАКОМАЯ СИТУАЦИЯ?</span><p>Отчёты есть. <em>Уверенности в решении — нет.</em></p><div>Где деньги? Что заработал объект? Обоснована ли смета внедрения? Начнём с вопроса, на который сейчас трудно ответить.</div></section>
+<section class="darkband" id="services"><div class="wrap">
+<div class="head"><div><div class="eyebrow" style="color:var(--lime)">ЧЕМ МОГУ ПОМОЧЬ</div><h2>Финансовые решения<br>на стороне собственника</h2></div><p>Можно начать с одного отчёта, объекта или предложения интегратора. Объём и стоимость этапа согласуем заранее.</p></div>
+<div class="services">
+<article class="service" id="service-money"><div class="service-n">01 / ФИНАНСЫ ГРУППЫ</div><h3>Финансовое управление группой компаний</h3><p>Связываю данные нескольких компаний в общую картину денег и расчётов. Помогаю определить, где находятся средства, что происходит с ликвидностью и какие показатели требуют внимания собственника.</p><div class="deliverable"><b>Результат этапа:</b> Свод по согласованному контуру компаний, расшифровки показателей и правила сверки. Состав отчётов и глубину анализа определяем до начала этапа.</div></article>
+<article class="service" id="service-project"><div class="service-n">02 / ПРОЕКТЫ И КАПИТАЛ</div><h3>Экономика проектов и капитал собственника</h3><p>Разделяю прибыль проекта, движение денег и личный денежный результат владельца. Раскрываю затраты, обязательства, вложения и изъятия, чтобы обсуждать решения на единой финансовой основе.</p><div class="deliverable"><b>Результат этапа:</b> По выбранной задаче — расчёт экономики проектов или отчёт о вложениях и изъятиях собственника, с расшифровками и согласованными правилами расчёта.</div></article>
+<article class="service" id="service-system"><div class="service-n">03 / НЕЗАВИСИМАЯ ЭКСПЕРТИЗА</div><h3>Независимая экспертиза 1С/ERP</h3><p>Сопоставляю задачи бизнеса с предлагаемой системой, составом работ и стоимостью внедрения. Помогаю сформулировать требования и критерии, по которым можно принять результат.</p><div class="deliverable"><b>Результат этапа:</b> Сравнение вариантов, проверку сметы и список вопросов подрядчику — с аргументами для решения собственника.</div></article>
+<article class="service" id="service-acceptance"><div class="service-n">04 / ФИНАНСОВАЯ АВТОМАТИЗАЦИЯ</div><h3>Автоматизация финансовой функции</h3><p>Проектирую путь от исходных операций до управленческой отчётности: правила обработки, связи между показателями и контроль исключений. Применяю ИИ там, где он помогает команде работать с данными и решениями.</p><div class="deliverable"><b>Результат этапа:</b> Финансовое задание, правила обработки данных и критерии приёмки. По согласованному этапу — протокол проверки расчётов и замечания к результату.</div></article>
+</div>
+<div class="service-start"><p><strong>Первый этап — разбор одного вопроса.</strong> Заранее согласуем нужные данные, объём и форму результата. На выходе — выводы по задаче, расшифровка показателя или перечень вопросов к расчёту и понятный следующий шаг. Срок и стоимость фиксируем до начала.</p><a class="btn btn-light" href="#contact">Обсудить первый этап ↗</a></div>
+</div></section>
+<section class="section wrap method" id="approach">
+  <div><div class="eyebrow">МЕТОД РАБОТЫ</div><h2>Работаю на стороне<br>вашей команды.</h2><p>Подключаюсь к задаче в согласованных границах и вместе с командой прохожу путь от вопроса до решения.</p></div>
+  <div class="principles">
+    <div class="principle"><b>01</b><div><strong>Определить решение</strong><p>Уточняем, на какой вопрос должны ответить данные и что важно собственнику.</p></div></div>
+    <div class="principle"><b>02</b><div><strong>Зафиксировать границы</strong><p>Согласуем исходные данные, объём, срок, стоимость и критерии завершения этапа.</p></div></div>
+    <div class="principle"><b>03</b><div><strong>Разобрать и обсудить</strong><p>Проверяю расчёты в рамках договорённостей, объясняю выводы и ограничения данных. Разработку и внедрение выполняют профильные специалисты.</p></div></div>
+  </div>
+</section>
+<section class="section wrap" id="cases">
+<div class="head"><div><div class="eyebrow">ПРАКТИКА</div><h2>Практика, за которой стоят<br>конкретные задачи</h2></div><p>Финансовая постановка, работа с источниками и контроль результата. Материалы компаний обезличены.</p></div>
+<div class="cases">
+<article class="case"><div class="top"><small>01 / ФИНАНСОВЫЙ КОНТУР ГРУППЫ</small></div><div class="body">
+<h3>Связать движение денег с управленческой картиной</h3>
+<p><strong>Проблема.</strong> Деньги, объекты, договоры и отчёты учитывались раздельно. Итоговую цифру было трудно проследить до операции.</p>
+<p><strong>Моя роль.</strong> Финансовая методология и руководство изменениями: правила расчётов, требования к отчётам, проверка показателей.</p>
+<p><strong>Действия.</strong> Классификация банка и кассы, аналитика по компаниям и объектам, правила внутренних переводов, сверки и расшифровки.</p>
+<div class="case-result"><span>СОЗДАНО</span><p>Единый контур управленческой отчётности группы: движение и остатки денег, расчёты капитала собственника и контроль дебиторской задолженности. В подготовке аналитики и развитии отчётности применяю ИИ; финансовые правила и контроль задаю как заказчик и эксперт.</p></div>
+<details class="case-detail"><summary>Подробнее: что связано и как проверяется</summary><div class="case-detail-body"><p><strong>Цепочка данных:</strong> банковские операции и касса → классификация движений → ДДС и свод группы → управленческие отчёты.</p><ol><li>Методология задаёт статьи и аналитики по компаниям и объектам.</li><li>Внутренние переводы выделяются отдельно от доходов и расходов группы.</li><li>Остатки, дубли и исключения проверяются по исходным данным.</li><li>Расшифровка помогает перейти от показателя к составляющим его операциям.</li></ol><p class="case-detail-note">Кейс описывает созданные отчёты, правила и процедуры. Исходные выписки и внутренние данные не публикуются.</p></div></details>
+</div></article>
+<article class="case"><div class="top bit"><small>02 / ВНЕДРЕНИЕ БИТ.ФИНАНС</small></div><div class="body">
+<h3>Собственник видит, какие объекты и регионы прибыльны</h3>
+<p>Данные строительной группы были распределены по четырём базам 1С. Задача — связать их в сопоставимую управленческую картину.</p>
+<div class="case-result"><span>РЕЗУЛЬТАТ ДЛЯ СОБСТВЕННИКА</span><p>В отдельном контуре БИТ.ФИНАНС действуют отчёты по объектам и регионам: собственник видит их прибыльность и может разобрать, из чего складывается результат.</p></div>
+<p><strong>Моя роль.</strong> Независимый руководитель внедрения со стороны бизнеса: интервью, требования и ТЗ, управление подрядчиком, бюджетом и приоритетами, организация приёмки. Код и архитектуру создавали профильные разработчики.</p>
+<div class="case-facts"><div><strong>4</strong><span>рабочие базы 1С</span></div><div><strong>1</strong><span>отдельный управленческий контур</span></div><div><strong>≈ 1 год</strong><span>до запуска отчётности в работу</span></div></div>
+<p class="case-detail-note">Система используется. Финальная сверка управленческих данных и стабилизация обменов продолжаются.</p>
+</div></article>
+</div></section>
+<section class="section wrap ai-practice" id="ai-practice">
+<div class="head"><div><div class="eyebrow">ФИНАНСОВОЕ УПРАВЛЕНИЕ С ПРИМЕНЕНИЕМ ИИ</div><h2>Видеть бизнес целиком.<br>Управлять деньгами и капиталом.</h2></div><p>Автоматизация помогает команде быстрее работать с данными, а собственнику — получать целостную картину. Финансовые правила, проверка результата и решения остаются за людьми.</p></div>
+<div class="ai-grid">
+<article class="ai-card"><span class="ai-label">01 / ЕДИНЫЙ ФИНАНСОВЫЙ КОНТУР ГРУППЫ</span><h3>Деньги нескольких компаний —<br>в одной системе управления</h3><div class="ai-output"><b>Ценность для собственника:</b> общая картина ликвидности группы и вклад каждой компании. Связанные показатели обновляются из единого источника — с контролем актуальности и сверкой остатков.</div><details class="ai-description"><summary>Как устроена работа</summary><div class="ai-description-body"><p>Связываю загрузку банковских выписок, распознавание операций, классификацию по компаниям и объектам, движение денег и пересчёт отчётности. Настраиваю единые правила, защиту от дублей и контроль прохождения данных по цепочке.</p><p>В своде группы исключаю внутригрупповые обороты. Остатки по счетам, кассам и депозитам отделяю от потоков за период; внешние поступления и выплаты — от перемещений денег внутри бизнеса.</p></div></details></article>
+<article class="ai-card"><span class="ai-label">02 / ЭКОНОМИКА СОБСТВЕННИКА</span><h3>Что бизнес даёт владельцу<br>и куда направляется его капитал</h3><div class="ai-output"><b>Ценность для собственника:</b> понять, сколько он вложил, сколько вернул и получил для себя, куда направил средства и как меняется баланс его вложений и изъятий. Основа для решений о реинвестировании, личных выплатах и финансировании бизнеса.</div><details class="ai-description"><summary>Как устроена работа</summary><div class="ai-description-body"><p>Собираю историю отношений собственника с бизнесом: вложения, возврат вложенных средств, личные выплаты, приобретение имущества и другие расходы в его интересах. Показываю движение по годам и накопленный итог участия владельца.</p><p>Разделяю прибыль бизнеса, движение денег и личный денежный результат собственника: эти показатели отвечают на разные вопросы и требуют разных расчётов.</p></div></details></article>
+<article class="ai-card"><span class="ai-label">03 / ЭКОНОМИКА ПОРТФЕЛЯ ПРОЕКТОВ</span><h3>Какие проекты создают прибыль<br>и где сосредоточены риски</h3><div class="ai-output"><b>Ценность для управления:</b> видеть различие между полученным авансом и заработанной прибылью, сравнивать объекты и определять, где требуется пересмотр затрат, условий работы или приоритетов финансирования.</div><details class="ai-description"><summary>Как устроена работа</summary><div class="ai-description-body"><p>Связываю договорную выручку, выполненные работы, поступления заказчиков, закупки, материалы, оплату труда и обязательства перед поставщиками. Формирую сопоставимую экономику объектов и раскрываю факторы, влияющие на маржу.</p><p>Проверяю отнесение затрат, повторное включение расходов и полноту первичных данных. Показываю, какие документы и обязательства нужно учесть при оценке результата проекта.</p></div></details></article>
+<article class="ai-card"><span class="ai-label">04 / ДЕБИТОРСКАЯ ЗАДОЛЖЕННОСТЬ И ОБОРОТНЫЙ КАПИТАЛ</span><h3>Понимать, где деньги бизнеса<br>остаются в расчётах</h3><div class="ai-output"><b>Ценность для управления:</b> обоснованные приоритеты по возврату денег в оборот, контролю расчётов и уточнению условий оплаты — с пониманием того, из чего складывается каждая сумма.</div><details class="ai-description"><summary>Как устроена работа</summary><div class="ai-description-body"><p>Выстраиваю анализ задолженности по начислениям и фактическим оплатам, контрагентам, договорам и периодам. Разделяю долг покупателя, полученные авансы и ещё не исполненную часть договора.</p><p>Раскрываю изменение задолженности и связь с исходными операциями. Это помогает отделить ошибку учёта от реального долга и определить предмет работы с заказчиком.</p></div></details></article>
+<article class="ai-card ai-pilot"><span class="ai-label">СОБСТВЕННЫЙ ПРОДУКТ · ПИЛОТ</span><h3>Аналитика закупочного рынка:<br>от документов к коммерческим решениям</h3><p>Развиваю приложение, которое объединяет поиск закупок, фильтрацию, анализ результатов, обращение к документам-источникам и выгрузку в Excel. Задача продукта — дать основу для оценки возможностей рынка и выбора закупок для дальнейшей проработки.</p><div class="ai-output"><b>Практический результат:</b> созданы прототип и клиентская сборка. В проекте соединяю бизнес-постановку, требования к достоверности данных и разработку с ИИ-инструментами.</div><details class="case-detail"><summary>О развитии продукта</summary><div class="case-detail-body"><p>Следующие этапы — расширение покрытия источников, независимая проверка клиентской сборки и развитие серверной работы. Это мой собственный продукт на стадии пилота.</p></div></details></article>
+</div>
+<div class="ai-boundary"><strong>Масштаб автоматизации определяется связностью системы.</strong><p>Одна операция должна корректно отражаться в движении денег, остатках и соответствующей управленческой аналитике. ИИ помогает обрабатывать данные; методология, контроль взаимосвязей и профессиональное суждение превращают их в основу для решений.</p></div>
+</section>
+<section class="bio" id="about"><div class="wrap bio-grid">
+    <div class="diagram" role="img" aria-label="Метод работы: источник данных, финансовая методология, сверка, управленческое решение">
+    <small>МОЙ ПОДХОД К ФИНАНСОВОЙ АВТОМАТИЗАЦИИ</small>
+    <div class="diag-title">У каждой цифры — источник.<br>У каждого вывода — смысл.</div>
+    <div class="step"><span class="num">01</span><span><span class="st-head">Первичный источник</span><span class="st-sub">Банк, договор, акт, учётная система</span></span></div>
+    <div class="step"><span class="num">02</span><span><span class="st-head">Финансовая методология</span><span class="st-sub">Правила, аналитики, взаимосвязи</span></span></div>
+    <div class="step"><span class="num">03</span><span><span class="st-head">Контроль и сверка</span><span class="st-sub">Расхождения, расшифровки, ответственные</span></span></div>
+    <div class="step"><span class="num">04</span><span><span class="st-head">Решение собственника</span><span class="st-sub">Деньги, маржа, риски, приоритеты</span></span></div>
+    <div class="verified"><span class="dot"></span><span>Автоматизация — средство. Достоверность финансов — цель.</span></div>
+  </div>
+  <div><div class="eyebrow">ОБ ЭКСПЕРТЕ</div><h2>Роман Ушаков</h2>
+    <p>Двадцать лет работаю с финансами и управлением: финансовый контроль, руководство бизнесом, управленческий учёт и его автоматизация.</p>
+    <p>Работаю на стороне собственника и финансового заказчика. Разбираюсь, как возникает показатель, что он говорит о бизнесе и достаточно ли данных для решения.</p>
+    <p>Соединяю финансовое руководство с аналитикой учётных систем: от методологии управленческого учёта до требований к автоматизации. Профильная подготовка — экономист, CIMA Advanced Diploma и курс аналитика 1С.</p>
+    <a class="external" href="https://cors.su/cases/investitsiya-v-znaniya-kak-obuchenie-na-kurse-analitika-1s-pomogaet-buhgalteru-v-proektah-vnedreniya/" target="_blank" rel="noopener noreferrer">Интервью в CORS Academy о финансах и 1С ↗</a><br>
+    <a class="external" href="https://www.linkedin.com/in/roman-ushakov-93436a61/" target="_blank" rel="noopener noreferrer">Профессиональный профиль LinkedIn ↗</a>
+  </div>
+</div></section>
+<section class="interview-section" id="interview"><div class="wrap interview-grid">
+<div><div class="eyebrow">ПУБЛИКАЦИЯ / CORS ACADEMY</div><h2>О финансах, 1С<br>и работе на стороне заказчика</h2></div>
+<div><p>В интервью академии рассказываю, как опыт в корпоративных финансах сочетается с аналитикой 1С: от выявления потребности бизнеса до подготовки требований и приёмки результатов.</p><a class="btn btn-dark" href="https://cors.su/cases/investitsiya-v-znaniya-kak-obuchenie-na-kurse-analitika-1s-pomogaet-buhgalteru-v-proektah-vnedreniya/" target="_blank" rel="noopener noreferrer">Читать интервью в CORS Academy ↗</a></div>
+</div></section>
+<section class="education" id="education"><div class="wrap">
+  <div class="head"><div><div class="eyebrow">ОБРАЗОВАНИЕ И КВАЛИФИКАЦИЯ</div><h2>Образование и квалификация</h2></div><p>Профильное финансовое образование и подготовка по управленческому учёту, рискам и бизнес-аналитике 1С.</p></div>
+  <details class="portfolio-disclosure"><summary>Дипломы и обучение: КГУ · CIMA · CORS <span aria-hidden="true">+</span></summary><div class="edu-grid">
+    <article class="edu-card"><div class="edu-meta"><span class="edu-yr">2006</span> Высшее образование</div><h3>Экономист · «Финансы и кредит»</h3><p>Костромской государственный университет им. Н. А. Некрасова. Диплом специалиста от 28 июня 2006 года.</p></article>
+    <article class="edu-card"><div class="edu-meta"><span class="edu-yr">2022</span> Международная квалификация</div><h3>CIMA Advanced Diploma in Management Accounting (Rus)</h3><p>Квалификация по управленческому учёту CIMA Adv Dip MA (Rus). Дата присвоения — январь 2022 года.</p></article>
+    <article class="edu-card"><div class="edu-meta"><span class="edu-yr">2022</span> Повышение квалификации</div><h3>Управление рисками · CIMA P3</h3><p>Обучение в центре корпоративного образования PwC: 50 академических часов. Удостоверение о повышении квалификации от 12 марта 2022 года.</p></article>
+    <article class="edu-card"><div class="edu-meta"><span class="edu-yr">2026</span> Профессиональное обучение</div><h3>Бизнес-аналитика 1С</h3><p>Курс аналитика 1С, CORS Academy: системная и бизнес-аналитика, 256 академических часов. Сертификат от 11 марта 2026 года.</p></article>
+  </div>
+  <div class="edu-note"><strong>Практика на стыке дисциплин.</strong> Финансовая методология, управленческий учёт и аналитика 1С помогают формулировать требования на языке бизнеса и проверять результат в данных.</div>
+</details>
+</div></section>
+<section class="evidence" id="evidence"><div class="wrap">
+  <div class="head"><div><div class="eyebrow">ПОДГОТОВКА И ПРАКТИЧЕСКИЕ МЕТОДЫ</div><h2>Инструменты финансового заказчика</h2></div><p>Учебное портфолио курса аналитика 1С: примеры подготовки требований, расчётов и сценариев проверки. Это учебные работы, отдельно от реальных проектов выше.</p></div>
+  <details class="portfolio-disclosure"><summary>Посмотреть четыре учебные работы <span aria-hidden="true">+</span></summary><div class="proof-grid">
+    <article class="proof"><small>01 / ПЛАН ПРОЕКТА</small><h3>Внедрение разбито на этапы и ответственность</h3><p>Разработана учебная диаграмма Ганта для финансовой автоматизации: обследование, описание процессов, ТЗ, архитектура, доработки, обучение, тесты и передача в сопровождение.</p><div class="proof-result">Польза клиенту: увидеть вехи, участников и зависимые результаты — до подписания большого договора.</div></article>
+    <article class="proof"><small>02 / ФУНКЦИОНАЛЬНЫЙ ВЫБОР</small><h3>Сначала задачи бизнеса, потом конфигурация</h3><p>Выполнены сравнения УНФ, УТ, ERP и отраслевых решений 1С: функции, масштабы компании, ограничения, интеграции и стоимость владения.</p><div class="proof-result">Польза клиенту: проверка обоснованности выбора и рисков лишнего функционала.</div></article>
+    <article class="proof"><small>03 / ЭКОНОМИКА ВНЕДРЕНИЯ</small><h3>Цена должна сходиться построчно</h3><p>В учебных коммерческих предложениях и расчётах трудоёмкости разобраны стоимость этапов, зависимости, арифметика сметы и допущения, влияющие на итоговую цену.</p><div class="proof-result">Польза клиенту: прозрачная стоимость этапов, допущений и итоговых обязательств.</div></article>
+    <article class="proof"><small>04 / ТРЕБОВАНИЯ И ПРИЁМКА</small><h3>Демонстрация — ещё не доказанный результат</h3><p>Подготовлены пользовательские сценарии, ТЗ на расширение 1С, планы функциональных и негативных тестов: права доступа, расчёты, граничные условия, устойчивость.</p><div class="proof-result">Польза клиенту: критерии приёмки с эталонными данными, а не отчёт «всё готово».</div></article>
+  </div>
+</details>
+</div></section>
+<section class="section wrap faq" id="questions"><div class="head"><div><div class="eyebrow">ПЕРЕД НАЧАЛОМ</div><h2>Что важно знать до старта</h2></div><p>Главное о первом этапе и совместной работе.</p></div>
+<details><summary>Как проходит первое обсуждение?</summary><p>Начинаем с вашей ситуации и решения, которое нужно принять. Определяем предмет работы, доступные данные и состав первого результата. До начала работ согласуем объём, сроки и стоимость.</p></details>
+<details open><summary>Что автоматизация меняет для людей?</summary><p><strong>В центре изменений — человек, его опыт и возможность делать более значимую работу.</strong> Моя цель — освободить команду от повторного ввода, копирования и ручного сведения данных. Тогда у сотрудников появляется больше времени на анализ, поиск причин, работу с клиентами и решения, где нужны профессиональное суждение и ответственность.</p><p>Поэтому изменения строю вместе с людьми: опираюсь на их знание бизнеса, объясняю логику инструментов и помогаю освоить новые задачи. Для собственника ценность — в команде, которая глубже понимает цифры, замечает риски и предлагает решения. Автоматизация усиливает вклад человека в бизнес.</p></details>
+<details><summary>Можно начать с одной задачи?</summary><p>Да. Один объект, участок учёта, отчёт или предложение интегратора — достаточный предмет для первого этапа. Его объём и результат согласуем до начала работ.</p></details>
+<details><summary>Нужно менять бухгалтерию или учётную систему?</summary><p>Сначала разбираемся, что уже работает и где возникает проблема. Для проверки отчёта или методологии замена команды и системы сама по себе не требуется. Потребность в изменениях определяем по результатам разбора.</p></details>
+<details><summary>Что останется у меня после работы?</summary><p>Материалы согласованного этапа: расчёт или отчёт с расшифровками, обнаруженные расхождения и рекомендации. Для проекта автоматизации — требования, критерии и протокол проверки в зависимости от выбранной задачи.</p></details>
+<details><summary>Как определяются стоимость и сроки?</summary><p>После уточнения задачи, доступности данных и объёма проверки. До начала работ согласуем состав результата, сроки и цену. Первое письмо может содержать только описание ситуации.</p></details>
+</section>
+<section class="contact" id="contact"><div class="wrap">
+  <div class="eyebrow">КОНТАКТ</div><h2>Расскажите, что сейчас<br>не сходится в картине бизнеса.</h2>
+  <p>Напишите несколько предложений о компании, ситуации и решении, которое нужно принять. Определим предмет первого этапа и необходимые материалы.</p>
+  <div class="contact-prompts"><span>Какая компания и чем занимается?</span><span>Какой показатель или процесс вызывает вопросы?</span><span>Какое решение вы хотите принять?</span></div>
+  <a class="btn btn-dark contact-cta" href="mailto:ushakov.finance@gmail.com?subject=Обсуждение%20финансовой%20задачи">Написать о задаче ↗</a><br><a class="email" href="mailto:ushakov.finance@gmail.com?subject=%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%20%D0%BF%D0%BE%20%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%20%D1%83%D1%87%D1%91%D1%82%D1%83">ushakov.finance@gmail.com ↗</a>
+  <div class="contact-tools"><button type="button" class="btn btn-outline copy-email" hidden>Скопировать email</button><input class="email-fallback" type="text" value="ushakov.finance@gmail.com" aria-label="Email для копирования" readonly hidden><span class="copy-status" role="status" aria-live="polite" aria-atomic="true"></span></div>
+  <p class="legal">Объём, сроки и стоимость согласуем до начала работ. Для первого письма достаточно описания задачи — без банковских выписок, персональных данных и внутренней первички.</p>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Роман Ушаков · Независимая финансовая экспертиза</span><a href="#top">Наверх ↑</a></div></footer>
+<nav class="mobile-dock" aria-label="Быстрые переходы"><a href="#services">Услуги</a><a href="#cases">Кейсы</a><a href="#contact">Написать ↗</a></nav>
+<script>
+(() => {
+  const toggle=document.querySelector('.menu-toggle');
+  const menu=document.querySelector('#main-links');
+  const nav=document.querySelector('nav[aria-label="Главное меню"]');
+  if(toggle && menu && nav){
+    nav.setAttribute('data-enhanced','');
+    const isOpen=()=>toggle.getAttribute('aria-expanded')==='true';
+    const closeMenu=()=>{menu.classList.remove('is-open');toggle.setAttribute('aria-expanded','false')};
+    toggle.addEventListener('click',()=>{const open=!isOpen();toggle.setAttribute('aria-expanded',String(open));menu.classList.toggle('is-open',open)});
+    document.addEventListener('keydown',event=>{if(event.key==='Escape' && isOpen()){closeMenu();toggle.focus()}});
+    document.addEventListener('click',event=>{if(isOpen() && !nav.contains(event.target)){const hadMenuFocus=menu.contains(document.activeElement);closeMenu();if(hadMenuFocus)toggle.focus()}});
+    const breakpoint=window.matchMedia('(max-width:1000px)');
+    breakpoint.addEventListener('change',()=>{const hadMenuFocus=menu.contains(document.activeElement);closeMenu();if(breakpoint.matches && hadMenuFocus)toggle.focus()});
+    menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',()=>{
+    const target=document.getElementById(link.getAttribute('href').slice(1));
+    if(!target)return;
+    if(!target.hasAttribute('tabindex'))target.setAttribute('tabindex','-1');
+    requestAnimationFrame(()=>target.focus({preventScroll:true}));
+  }));
+  const dock=document.querySelector('.mobile-dock');
+  if(dock && 'ResizeObserver' in window){
+    const measure=()=>document.documentElement.style.setProperty('--dock-height',Math.ceil(dock.getBoundingClientRect().height)+'px');
+    new ResizeObserver(measure).observe(dock);measure();
+  }
+  const copyButton=document.querySelector('.copy-email');
+  const status=document.querySelector('.copy-status');
+  const fallback=document.querySelector('.email-fallback');
+  if(copyButton && status && fallback){
+    copyButton.hidden=false;
+    copyButton.addEventListener('click',async()=>{
+      status.textContent='';
+      let copied=false;
+      try{if(navigator.clipboard && window.isSecureContext){await navigator.clipboard.writeText(fallback.value);copied=true}}catch(error){}
+      if(!copied){
+        fallback.hidden=false;fallback.focus();fallback.select();
+        try{copied=document.execCommand('copy')}catch(error){}
+      }
+      if(copied){fallback.hidden=true;copyButton.focus();status.textContent='Email скопирован.'}
+      else{fallback.hidden=false;fallback.focus();fallback.select();status.textContent='Адрес выделен. Скопируйте его через меню устройства.'}
+    });
+  }
+  let printState=[];
+  window.addEventListener('beforeprint',()=>{if(!printState.length)printState=Array.from(document.querySelectorAll('details')).map(node=>[node,node.open]);printState.forEach(([node])=>{node.open=true})});
+  window.addEventListener('afterprint',()=>{printState.forEach(([node,open])=>{node.open=open});printState=[]});
+})();
+</script></body></html>
