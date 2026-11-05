@@ -1,5 +1,11 @@
 # Mandatory workflow for ushakov-finance.ru
 
+## Single current authority and project status
+- Before work, read the live [GLOBAL OWNER/CTO REGULATION](https://docs.google.com/document/d/1vCWOcXp_ne4s4BtcI0Ks-OZuj2vJRJ1Z5eUXCokoPS4/edit) and [OWNER NAVIGATOR](https://docs.google.com/document/d/1KiIhw3kr9EHY2flf_Dv19vi7O-Hk3B27opvV9uj472c/edit), then this site's actual GitHub main state, last verified public site and relevant approved owner decisions. The Google documents do not themselves deploy site updates or prove execution.
+- Distinguish work on an isolated branch, a merged main change, a successful Pages deployment and independent verification of the public domain. **Never call a branch-only AGENTS update a public website change.**
+- This governance branch is document-only. GitHub Pages publishes from main; do not merge, push main, alter CNAME/DNS, publish, create a paid resource or enable Actions without relevant OWNER approval, safety verification and deployment acceptance.
+- Owner business outcomes matter: preserve accepted site design; for a requested actual site fix, implement the approved user-visible change in the original repository, test locally, publish only through the accepted gate and verify HTTPS/desktop/mobile. A draft or a checkpoint alone is not delivery.
+
 ## Owner and production
 - Roman is the business owner. The assistant executes implementation, diagnostics, publication and verification. Do not delegate technical steps to Roman.
 - Production is THIS repository: ushakovfinance-commits/ushakov-finance-site, branch main, GitHub Pages from /(root).
