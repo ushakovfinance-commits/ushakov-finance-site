@@ -7,6 +7,12 @@
 - Preserve CNAME containing ushakov-finance.ru, .nojekyll, enabled Enforce HTTPS, relative asset paths and existing approved content/style.
 - Sites project appgprj_6ad108e0fa548191870e450b37a79482 is the historical source, NOT the production publication target. Publishing only to Sites does not update the public domain.
 
+## Governing sources and freshness (OWNER, 05.11.2026)
+- Before technical work, read the available [Global OWNER/CTO rules](https://docs.google.com/document/d/1vCWOcXp_ne4s4BtcI0Ks-OZuj2vJRJ1Z5eUXCokoPS4/edit), [Owner Navigator](https://docs.google.com/document/d/1KiIhw3kr9EHY2flf_Dv19vi7O-Hk3B27opvV9uj472c/edit), and this repository's current `AGENTS.md`, then verify exact main HEAD, deployed version and the latest authorized owner decision. Do not claim inaccessible sources have been read. Existing site/business-specific instructions remain subordinate to latest owner decisions.
+- This repository's `main` is **live production**. Site/content, Pages publication, DNS, CNAME, HTTPS/certificates, permission changes and merges require the applicable confirmed OWNER authorization and consequence checks. A docs-only change on a separate branch is not a site release. Never infer permission to publish from an earlier launch or an outdated checkpoint.
+- Keep the existing agreed public site and source intact. Do not create new sites, separate deployments, actions or paid services. OWNER's no-new-spending decision remains in force; the historical blanket 20% quota STOP was revoked and must not be used to abandon safe read-only work.
+- Acceptance: explicit authorized change → safely applied to correct target → independent GitHub read-back → actual public URL/HTTPS/mobile verification when a deployment is authorized. Without deployment evidence report `NOT_PUBLISHED`, not completed. Record current evidence in the existing owner Navigator rather than creating a competing project canon.
+
 ## Required execution
 1. Read this file and inspect current repository/deployment before acting. Resume from existing state; do not recreate the site, repository or infrastructure.
 2. Discuss content/design changes in chat; do not change approved public content without Roman's agreement.
