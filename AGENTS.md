@@ -31,3 +31,10 @@
 
 ## Continuity
 Persistent operational note: Поиск работы ИИ/Порядок_правок_и_публикации_ushakov-finance.ru.md, Library ID libfile_a8784242cd308191bace15f6e44ea461. Read its latest version when further history is needed. It contains historical incident states; use the latest accepted production checkpoint, not obsolete rollback instructions.
+
+## Runtime-vs-repository truth gate — 09.11.2026
+- GitHub HEAD/PR/CI is source-control evidence, **not** proof of deployed or executing code. Before diagnosing or changing behavior, identify each target environment and verify actual runtime identity: code/version or deployment ID, configuration/properties, triggers or start command, and the last real execution receipt when available.
+- Build an explicit comparison: `repository branch + commit SHA` | `TEST actual runtime/version` | `Production actual runtime/version`. Mark each `MATCH`, `DIFF`, or `UNVERIFIED` with evidence; never silently assume the same code or infer deployment from a commit.
+- Any mismatch or inaccessible runtime is a state of `REVIEW/UNVERIFIED`, not automatic permission to overwrite the runtime. Preserve manual and financial data; use isolated TEST and obtain required OWNER authorization for Production, deployment, merge, access, or costs.
+- Accept a fix only after execution of the **corrected code in the intended target environment**, independent readback of outputs, and relevant E2E/idempotency/recovery checks. Passing CI, edited `AGENTS.md`, a GitHub comment or a Work report is not runtime acceptance.
+- For each agent handoff give the factual checked-out SHA, verified runtime mapping, open mismatches and next permitted action. On resume reread this file from the *actual checked-out branch*; other branches' instructions do not automatically apply.
